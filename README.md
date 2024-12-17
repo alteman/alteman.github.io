@@ -1,1 +1,1 @@
-This is the readme of GH pages
+- [How to add a delayed disarm for digital VTX in Betaflight](/BF.html).
