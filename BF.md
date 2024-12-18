@@ -1,4 +1,4 @@
-# How to delay VTX disarm in BF
+# How to delay VTX disarm in Betaflight 4.5.1
 
 If you want to add a configurable delay between you disarm and DVR stops recording, all you need to do is
 - Back up your current settings using `diff all`
