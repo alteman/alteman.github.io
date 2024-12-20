@@ -1,6 +1,6 @@
 ---
 patched_versions:
-  - 4.5.1:
+  - tag: 4.5.1
     commit: ddf451e8e7f8e7f87fe87e8f
-  - 4.5.0:
+  - tag: 4.5.0
     commit: dd450fe8e7f8e7f87fe87e8f
