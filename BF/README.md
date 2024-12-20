@@ -7,6 +7,18 @@ custom_js:
   - tabs
 ---
 
+{: .myheader }
+# Heading
+
+{: .mylist }
+- foo
+- bar
+
+{: .mylist2 }
+{% for x in (1..5) %}
+- item {{x}}
+{% endfor %}
+
 {: .tab-title .tabgroup-versions .tab-hide }
 {% for version in site.data.bf.patched_versions %}
 - {{ version.tag }}
