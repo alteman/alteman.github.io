@@ -18,7 +18,7 @@ custom_js:
 {% for version in site.data.bf.patched_versions %}
 
 {: .tab-content .tabgroup-versions .tab-hide }
-<p>
+<div markdown="1">
 ## How to delay digital VTX disarm in Betaflight {{ version.tag }}
 If you want to add a configurable delay between disarming and DVR stopping recording, all you need to do is
 - Back up your current settings using `diff all`
@@ -30,6 +30,6 @@ If you want to add a configurable delay between disarming and DVR stopping recor
 - Even though the UI shows firmware version as 4.6.0-dev, **it will build {{ version.tag }} firmware**.
 - You can change the delay using the **displayport_msp_disarm_delay** parameter, default is 5 seconds.
     ![Flashing custom firmware](/images/cli_param.png?raw=true "text")
-</p>
+</div>
 {% endfor %}
 
