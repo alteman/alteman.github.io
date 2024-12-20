@@ -1,14 +1,17 @@
 ---
 layout: default
-last_tag: 4.5.1
-last_commit: 2a7643329864259e6d866d521886d959800447f6
-title: Delay VTX Disarm in Betaflight {{ page.last_tag }}
+title: Delay VTX Disarm in Betaflight {{ page.FIXME_TAG }}
 custom_css:
   - tabs
 custom_js:
   - tabs
 ---
 {% for version in site.data.bf.patched_versions %}
+
+{: .tab-title .tabgroup-test .tab-hide }
+{{ version.tag }}
+
+{: .tab-content .tabgroup-test .tab-hide }
 
 # How to delay digital VTX disarm in Betaflight {{ version.tag }}
 
