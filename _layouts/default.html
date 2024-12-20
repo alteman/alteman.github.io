@@ -8,6 +8,12 @@
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
+    {% for css_file in page.custom_css %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ css_file }}.css">
+    {% endfor %}
+    {% for js_file in page.custom_js %}
+        <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
+    {% endfor %}
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
