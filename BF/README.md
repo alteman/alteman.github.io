@@ -7,7 +7,7 @@ custom_js:
   - tabs
 ---
 {% for version in site.data.bf.patched_versions %}
-{{ version.tag }}
+- {{ version.tag }}
 {% endfor %}
 {: .tab-title .tabgroup-versions .tab-hide }
 
