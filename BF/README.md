@@ -6,10 +6,8 @@ custom_css:
 custom_js:
   - tabs
 ---
-# Heading
-
+Choose Betaflight version
 {% for version in site.data.bf.patched_versions %}
-
 {: .tab-title .tabgroup-versions .tab-hide }
 {{ version.tag }}
 
