@@ -8,10 +8,10 @@ custom_js:
 ---
 {% for version in site.data.bf.patched_versions %}
 
-{: .tab-title .tabgroup-test .tab-hide }
+{: .tab-title .tabgroup-{{version | slugify}} .tab-hide }
 {{ version.tag }}
 
-{: .tab-content .tabgroup-test .tab-hide }
+{: .tab-content .tabgroup-{{version | slugify}} .tab-hide }
 
 # How to delay digital VTX disarm in Betaflight {{ version.tag }}
 
