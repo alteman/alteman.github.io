@@ -16,8 +16,8 @@
 .tab > li{margin:0px;}
 
 .tab li:not(:first-child) {
-  margin-left: -4px
-  margin-top: 0px
+  margin-left: -4px;
+  margin-top: 0px;
 }
 
 .tab li.active {z-index: 200;}
