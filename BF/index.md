@@ -20,7 +20,7 @@ Choose Betaflight version
 ## How to delay digital VTX disarm in Betaflight {{ version.tag }}
 If you want to add a configurable delay between disarming and DVR stopping recording, all you need to do is
 - Back up your current settings using `diff all`
-- Flash custom cloud build firmware (Enter commit **{{ version.commit }}** in the **Select Pull Request or Commit** field
+- Flash custom cloud build firmware (Enter commit ```{{ version.commit }}``` in the **Select Pull Request or Commit** field
     ![Flashing custom firmware](/images/custom_commit.png?raw=true "text")
 - Restore your config dump
 
