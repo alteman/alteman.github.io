@@ -1,0 +1,36 @@
+:has(copy-button) {
+    position: relative;
+    width: fit-content;
+    /* block-size: fit-content; */
+}
+
+copy-button > img.copy-button {
+    background-color: transparent;
+    vertical-align: top;
+}
+
+copy-button {
+  background-color: transparent;
+  transition-duration: 0.5s;
+  border: 1;
+  border-radius: 6px;
+  box-shadow: none;
+  width: 24px;
+  height: 24px;
+  padding: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+copy-button:hover {
+  background-color: lightgray;
+  transition-duration: 0.2s;
+}
+
+copy-button.copied,
+copy-button.copied:hover,
+.copy-block.copied
+{
+    background-color: #ffdd2d;
+    transition-duration: 0.5s;
+}

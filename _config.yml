@@ -2,4 +2,8 @@ domain: alteman.github.io       # if you want to force HTTPS, specify the domain
 url: https://alteman.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 #baseurl: /alteman.github.io      # place folder name if the site is served in a subfolder
 plugins: 
-  - jekyll-octicons
+  - jekyll-default-layout
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-seo-tag
