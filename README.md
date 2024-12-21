@@ -1,1 +1,1 @@
-- [How to add a delayed disarm for digital VTX in Betaflight](/BF.md).
+- [How to add delayed disarm for digital VTX in Betaflight](/BF/).
