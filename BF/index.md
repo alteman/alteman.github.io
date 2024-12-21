@@ -28,6 +28,7 @@ If you want to add a configurable delay between disarming and DVR stopping recor
 - Even though the UI shows firmware version as 4.6.0-dev, **it will build {{ version.tag }} firmware**.
 - You can change the delay using the **displayport_msp_disarm_delay** parameter, default is 5 seconds.
     ![Flashing custom firmware](/images/cli_param.png?raw=true "text")
+- Patch source code [here: https://github.com/alteman/betaflight/](https://github.com/alteman/betaflight/commit/{{ version.commit }})
 </div>
 {% endfor %}
 
